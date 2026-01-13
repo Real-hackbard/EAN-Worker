@@ -106,6 +106,12 @@ This encoding guarantees that the first group always starts with an L-code, whic
 
 Entries in the R-column are bitwise complements (logical operator: [negation](https://en.wikipedia.org/wiki/Negation)) of the respective entries in the L-column. Entries in the G-column are the entries in the R-column in reverse bit order. See pictures of all codes against a colored background.
 
+</br>
+
+![500px-Ean13-Beispiel_k](https://github.com/user-attachments/assets/ef759bcc-00b0-45be-aabf-6c7770d17f11)
+
+</br>
+
 A run of one or more black areas is known as a "bar", and a run of one or more white areas is known as a "space". As can be seen in the table, each digit's encoding comprises two bars and two spaces, and the maximum width of a bar or space is four areas.
 
 
