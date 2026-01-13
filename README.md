@@ -106,13 +106,25 @@ This encoding guarantees that the first group always starts with an L-code, whic
 
 Entries in the R-column are bitwise complements (logical operator: [negation](https://en.wikipedia.org/wiki/Negation)) of the respective entries in the L-column. Entries in the G-column are the entries in the R-column in reverse bit order. See pictures of all codes against a colored background.
 
+A run of one or more black areas is known as a "bar", and a run of one or more white areas is known as a "space". As can be seen in the table, each digit's encoding comprises two bars and two spaces, and the maximum width of a bar or space is four areas.
+
 </br>
 
 ![500px-Ean13-Beispiel_k](https://github.com/user-attachments/assets/ef759bcc-00b0-45be-aabf-6c7770d17f11)
 
 </br>
 
-A run of one or more black areas is known as a "bar", and a run of one or more white areas is known as a "space". As can be seen in the table, each digit's encoding comprises two bars and two spaces, and the maximum width of a bar or space is four areas.
+* C1, C3: Start/end marker.
+* C2: Marker for the center of the barcode.
+* 6 digits in the left group: 003994.
+* 6 digits in the right group (the last digit is the check digit): 155486.
+* A digit is encoded in seven areas, by two black bars and two white spaces. Each black bar or white space can have a width between 1 and 4 areas.
+* Parity for the digits from left and right group: OEOOEE EEEEEE (O = Odd parity, E = Even parity).
+* The first digit in the EAN code: the combination of parities of the digits in the left group indirectly encodes the first digit 4.
+
+The complete EAN-13 code is thus: ```4 003994 155486```.
+
+
 
 
 
