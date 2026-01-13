@@ -142,7 +142,11 @@ Code 39 (also known as Alpha39, Code 3 of 9, Code 3/9, Type 39, USS Code 39, or 
 
 The Code 39 specification defines 43 characters, consisting of uppercase letters (A through Z), numeric digits (0 through 9) and a number of special characters (-, ., $, /, +, %, and space). An additional character (denoted '*') is used for both start and stop delimiters. Each character is composed of nine elements: five bars and four spaces. Three of the nine elements in each character are wide (binary value 1), and six elements are narrow (binary value 0).
 
+</br>
 
+![code39](https://github.com/user-attachments/assets/469ac86b-7073-480e-8cb7-9436257b710c)
+
+</br>
 
 
 
