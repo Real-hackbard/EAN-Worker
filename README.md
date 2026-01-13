@@ -10,7 +10,9 @@
 
 </br>
 
+The European Article Number (often shortened to EAN) is a standard to encode product numbers. The EAN is a special case of a [Global Trade Item Number](https://simple.wikipedia.org/wiki/Global_Trade_Item_Number?action=edit&redlink=1). The EAN is made of either 8 or 13 digits (EAN-8, and EAN-13). In many cases, the EAN allows to uniquely identify the item. Most of the time, the EAN is printed on the packaging of a product. Special scanners are able to decode these numbers. They then look up the product-specific data (such as the price) and print it on the bill, for example.
 
+Note that the EAN is often encoded using a [barcode](https://simple.wikipedia.org/wiki/Barcode) (such as the ones in the example), but this does not have to be the case. There are other machine-readable codes which can also be used.
 
 
 
