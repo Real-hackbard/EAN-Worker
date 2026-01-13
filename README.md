@@ -117,7 +117,7 @@ A run of one or more black areas is known as a "bar", and a run of one or more w
 * C1, C3: Start/end marker.
 * C2: Marker for the center of the barcode.
 * 6 digits in the left group: 003994.
-* 6 digits in the right group (the last digit is the check digit): 155486.
+* 6 digits in the right group (the last digit is the check digit): ```155486```.
 * A digit is encoded in seven areas, by two black bars and two white spaces. Each black bar or white space can have a width between 1 and 4 areas.
 * Parity for the digits from left and right group: OEOOEE EEEEEE (O = Odd parity, E = Even parity).
 * The first digit in the EAN code: the combination of parities of the digits in the left group indirectly encodes the first digit 4.
