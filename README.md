@@ -52,7 +52,15 @@ The barcode consists of 95 areas (also called modules of equal width. Each area 
 
 </br>
 
+The most widely used EAN code is the EAN-13 code. As its name suggests, it is composed of 13 digits, structured in three parts  :
 
+* The company prefix  : the first three digits represent the country of origin of the product (France  : 300 to 379)
+* The article number  :
+  * the next five digits correspond to the manufacturer’s code (from 0 to 99  999)
+  * From 8 to 12 th digit, these are the numbers corresponding to the manufacturer’s product. So there are 99  999 possibilities for each manufacturer. These figures are ”  free  That is, each manufacturer can choose the numbers used.
+* The control key  : the 13 th and last digit is a check digit  : it is calculated according to the first 12 digits of the EAN. This key is used to validate the barcode.
+
+This code is symbolized by a sequence of white and black bars, thus becoming a bar code.
 
 
 
