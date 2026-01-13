@@ -20,4 +20,19 @@ Note that the EAN is often encoded using a [barcode](https://simple.wikipedia.or
 
 </br>
 
+### EAN-13/GTIN-13:
+The standard EAN has 13 digits. The EAN is composed of different sections:
 
+* Country-specific part: 3 digits
+* Company part
+* Article number: 3-5 digits
+* Checksum digit
+
+### EAN-8/GTIN-8:
+The normal length of an EAN is 13 digits. There is also a shorter version called EAN-8, for small packages, where the full 13-digit number would take too much space on the package. The EAN-8 consists of:
+
+* Country-specific part: 2-3 digits
+* Article number: 4-5 digits
+* Checksum digit
+
+There are special organisations which give out both EAN-8 and EAN-13 numbers. Since EAN-8 numbers with a starting digit 2 are free use, many retailers (such as Aldi) use them for their own products. As an example, Aldi uses EAN-8 codes starting with 290 or 221; 290 and 221 are the country-specific parts "for internal use".
