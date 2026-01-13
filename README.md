@@ -154,7 +154,7 @@ As a generality, the location of the two wide bars can be considered to encode a
 
 When represented as a digit, the number "10" is used to encode the number zero. Because there are only six letters in the Letters(+30) group (letters 30–35, or U–Z), the other four positions in this group (36–39) are used to represent three symbols (dash, period, space) as well as the start/stop character.
 
-
+The two wide bars, out of five possible positions, encode a number between 1 and 10 using a [two-out-of-five code](https://en.wikipedia.org/wiki/Two-out-of-five_code) with the following numeric equivalence: 1, 2, 4, 7, 0. The numbers are summed together. For example, the number 6 is encoded NWWNN, with wide bars occupying the positions for 2 and 4 (2+4=6). In the case of NNWWN which is 4+7 = 11 it is assigned to 0 for digits (+0), and 10 for the letter columns (+10 – +30). When encoding the (+10 to +30) letters the equation needs a "−1" added so 'A' is WNNNW → 1 + 10 − 1 → 10 as shown in the table.
 
 
 
