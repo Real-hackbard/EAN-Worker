@@ -124,6 +124,27 @@ A run of one or more black areas is known as a "bar", and a run of one or more w
 
 The complete EAN-13 code is thus: ```4 003994 155486```.
 
+# Different types of bar codes:
+
+There are two kinds of barcode  : linear (and stacked linear) barcodes, as well as two-dimensional barcodes.
+
+The EAN is part of the first category. There are different EANs  : EAN-8, EAN-13 and EAN-128. The EAN-8 code is used on small products and the EAN-13 on the rest of the products. The EAN-128 is not a barcode per se  : it allows distributors and producers to exchange data. All of these EANs are GTIN codes. These codes may be different depending on the country and the type sold  :
+
+* [UPC](https://en.wikipedia.org/wiki/Universal_Product_Code)  : 12 digits for the USA
+* [EAN](https://en.wikipedia.org/wiki/International_Article_Number)  : 13 figures for Europe
+* [JAN](https://commons.wikimedia.org/wiki/File:JAN_barcode_1920192012386.png) (Japanese Article Number)  : 8 to 13 digits for Japan
+* [ISBN](https://en.wikipedia.org/wiki/ISBN) (International Standard Book Number)  : 10 or 13 digits for books. This code is still used a lot on Amazon.
+
+
+
+
+
+
+
+
+
+
+
 
 
 
