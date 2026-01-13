@@ -14,7 +14,10 @@ The European Article Number (often shortened to EAN) is a standard to encode pro
 
 Note that the EAN is often encoded using a [barcode](https://simple.wikipedia.org/wiki/Barcode) (such as the ones in the example), but this does not have to be the case. There are other machine-readable codes which can also be used.
 
+</br>
 
+![EAN](https://github.com/user-attachments/assets/17b32833-920d-413d-9144-f081f4409b32)
 
+</br>
 
 
