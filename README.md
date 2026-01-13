@@ -36,3 +36,34 @@ The normal length of an EAN is 13 digits. There is also a shorter version called
 * Checksum digit
 
 There are special organisations which give out both EAN-8 and EAN-13 numbers. Since EAN-8 numbers with a starting digit 2 are free use, many retailers (such as Aldi) use them for their own products. As an example, Aldi uses EAN-8 codes starting with 290 or 221; 290 and 221 are the country-specific parts "for internal use".
+
+# Barcode structure:
+The barcode consists of 95 areas (also called modules of equal width. Each area can be either white (represented here as 0) or black (represented as 1). From left to right:
+
+* 3 areas for the start marker (101)
+* 42 areas (seven per digit) to encode digits 2–7, and to encode digit 1 indirectly, as described in the following section
+* 5 areas for the center marker (01010)
+* 42 areas (seven per digit) to encode digits 8–13
+* 3 areas for the end marker (101)
+
+</br>
+
+![EAN-Structure](https://github.com/user-attachments/assets/ecf6a984-a44f-4f01-a548-57346e7ca8aa)
+
+</br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
