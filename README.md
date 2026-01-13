@@ -148,7 +148,11 @@ The Code 39 specification defines 43 characters, consisting of uppercase letters
 
 </br>
 
+The * character presented below is not a true encodable character, but is the start and stop symbol for Code 39. The asymmetry of the symbol allows the reader to determine the direction of the barcode being scanned. This code is traditionally mapped to the * character in barcode fonts and will often appear with the human-readable representation alongside the barcode.
 
+As a generality, the location of the two wide bars can be considered to encode a number between 1 and 10, and the location of the wide space (which has four possible positions) can be considered to classify the character into one of four groups (from left to right): Letters(+30) (U–Z), Digits(+0) (1–9,0), Letters(+10) (A–J), and Letters(+20) (K–T). For example, the letter P (being the 16th letter of the alphabet) has its bars aligned to represent the number 6, and the space in the far right position to select the group Letters(+20).
+
+When represented as a digit, the number "10" is used to encode the number zero. Because there are only six letters in the Letters(+30) group (letters 30–35, or U–Z), the other four positions in this group (36–39) are used to represent three symbols (dash, period, space) as well as the start/stop character.
 
 
 
