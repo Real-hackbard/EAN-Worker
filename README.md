@@ -85,9 +85,28 @@ To encode the 13-digit EAN-13 number, the digits are split into 3 groups; the fi
 
 This encoding guarantees that the first group always starts with an L-code, which has odd parity, and that the second group always starts with an R-code, which has even parity. Thus, it does not matter whether the barcode is scanned from the left or from the right, as the scanning software can use this parity to identify the start and end of the code.
 
+### Structure of EAN-8:
 
+</br>
 
+| Digit	 | L-code | G-code | R-code |
+| :-----------: | :-----------: | :-----------: | :-----------: |
+| 0     | 0001101     | 0100111	| 1110010     |
+| 1     | 0011001     | 0110011	| 1100110     |
+| 2     | 0010011     | 0011011	| 1101100     |
+| 3     | 0111101     | 0100001	| 1000010     |
+| 4     | 0100011     | 0011101	| 1011100     |
+| 5     | 0110001     | 0111001	| 1001110     |
+| 6     | 0101111     | 0000101	| 1010000     |
+| 7     | 0111011     | 0010001	| 1000100     |
+| 8     | 0110111     | 0001001	| 1001000     |
+| 9     | 0001011     | 0010111	| 1110100     |
 
+</br>
+
+Entries in the R-column are bitwise complements (logical operator: [negation](https://en.wikipedia.org/wiki/Negation)) of the respective entries in the L-column. Entries in the G-column are the entries in the R-column in reverse bit order. See pictures of all codes against a colored background.
+
+A run of one or more black areas is known as a "bar", and a run of one or more white areas is known as a "space". As can be seen in the table, each digit's encoding comprises two bars and two spaces, and the maximum width of a bar or space is four areas.
 
 
 
