@@ -62,10 +62,28 @@ The most widely used EAN code is the EAN-13 code. As its name suggests, it is co
 
 This code is symbolized by a sequence of white and black bars, thus becoming a bar code.
 
+# Encoding of the digits:
+To encode the 13-digit EAN-13 number, the digits are split into 3 groups; the first digit, the first group of 6 and the last group of 6. The first group of 6 is encoded using a pattern whereby each digit has two possible encodings, one of which has even parity (denoted with letter G) and one of which has odd [parity](https://en.wikipedia.org/wiki/Parity_bit#Parity) (denoted with letter L). The first digit is not represented directly by a pattern of bars and spaces, but is encoded indirectly, by selecting a pattern of choices between these two encodings for the first group of 6 digits, according to the table below. All digits in the last group of 6 digits are encoded using a single pattern RRRRRR, the one also used for [UPC](https://en.wikipedia.org/wiki/Universal_Product_Code).
 
+### Structure of EAN-13:
+</br>
 
+| First digit | First group of 6 digits | Last group of 6 digits |
+| :-----------: | :-----------: | :-----------: |
+| 0     | LLLLLL     | RRRRRR     |
+| 1     | LLGLGG     | RRRRRR     |
+| 2     | LLGGLG     | RRRRRR     |
+| 3     | LLGGGL     | RRRRRR     |
+| 4     | LGLLGG     | RRRRRR     |
+| 5     | LGGLLG     | RRRRRR     |
+| 6     | LGGGLL     | RRRRRR     |
+| 7     | LGLGLG     | RRRRRR     |
+| 8     | LGLGGL     | RRRRRR     |
+| 9     | LGGLGL     | RRRRRR     |
 
+</br>
 
+This encoding guarantees that the first group always starts with an L-code, which has odd parity, and that the second group always starts with an R-code, which has even parity. Thus, it does not matter whether the barcode is scanned from the left or from the right, as the scanning software can use this parity to identify the start and end of the code.
 
 
 
