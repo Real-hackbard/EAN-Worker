@@ -135,7 +135,7 @@ The EAN is part of the first category. There are different EANs  : EAN-8, EAN-13
 * [JAN](https://commons.wikimedia.org/wiki/File:JAN_barcode_1920192012386.png) (Japanese Article Number)  : 8 to 13 digits for Japan
 * [ISBN](https://en.wikipedia.org/wiki/ISBN) (International Standard Book Number)  : 10 or 13 digits for books. This code is still used a lot on Amazon.
 
-
+Composed of white and black bars, these codes are called linear because they can be read in the horizontal direction.
 
 
 
